@@ -81,7 +81,7 @@ const handleSubmit= async(e)=>{
   
   //server data
   
-  const response = await fetch('https://chatgpt-nine-iota.vercel.app/',{
+  const response = await fetch('http://localhost:5000',{
     method : "POST",
     headers : {
       'Content-Type' : 'application/json'
